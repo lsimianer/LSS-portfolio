@@ -107,5 +107,24 @@ p {
     font-family: 'Share Tech Mono', monospace;
     margin-top: 3%;
 }
+
+#footer {
+    
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+    padding-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    
+    
+}
+
+p {
+    margin-top: 0%;
+}
+
+.text-muted {
+    text-align: center;
+    margin-left: 50%;
+}
     
     
