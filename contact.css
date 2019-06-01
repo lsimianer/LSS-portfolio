@@ -1,6 +1,6 @@
 body {
     background-color:rgba(121, 118, 118, 0.507);
-    margin-right: -3%;
+    /* margin-right: -3%; */
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 
     
@@ -44,7 +44,22 @@ button {
     button:hover {
         cursor: pointer;
         background-color: black;
-    }
+}
+
+    div{
+        overflow: hidden;
+}
+
+    #footer {
+        overflow: hidden;
+}
+
+    .container {
+        overflow: hidden;
+}
+
+
+
 
 
 
