@@ -1,0 +1,111 @@
+body {
+    background-color:black;
+    color: white;
+    margin-right: -3%;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+
+    
+
+}
+
+#logo {
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+#hound {
+    /* width: 60%;
+    height: 60%; */
+    margin-top: -5%;
+}
+
+.headBtn {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+button {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(1, 139, 1, 0.356);
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+
+    color: white;
+    border-radius: 7px;
+    border-color: rgba(251, 252, 251, 0.705);
+    font-family: 'Lobster', cursive;
+    height: 30%;
+    width: 25%;
+    text-shadow: 2px 2px 3px rgba(211, 247, 7, 0.932)
+
+}
+        
+           
+    button:hover {
+        cursor: pointer;
+        background-color: black;
+    }
+
+.col-md {
+    
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+
+}
+
+
+h2 {
+    text-align: center;
+    color:white;
+    text-shadow: 2px 2px 3px rgb(4, 138, 4);
+    font-family: 'Lobster', cursive;
+}
+
+h2:hover {
+    text-shadow: 2px 2px 3px rgb(221, 245, 5);
+
+
+}
+
+svg {
+    height: 150px;
+    width: 150px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#who {
+    /* background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png"); */
+    background-color: rgba(128, 128, 128, 0.158);
+    padding-top: 3%;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+#social {
+    margin-left: 42%;
+    height: 25px;
+    width: 25px;
+    font-size: 75px;
+}
+
+.container {
+    padding: 0;
+    
+}
+
+p {
+    font-family: 'Share Tech Mono', monospace;
+    margin-top: 3%;
+}
+    
+    
