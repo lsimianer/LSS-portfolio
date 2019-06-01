@@ -1,0 +1,105 @@
+body {
+    background-color:rgba(121, 118, 118, 0.507);
+    margin-right: -3%;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+
+    
+
+}
+
+#logo {
+    background-color:rgba(121, 118, 118, 0.507);
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+#hound {
+    /* width: 60%;
+    height: 60%; */
+    margin-top: -5%;
+}
+
+.headBtn {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+button {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(1, 139, 1, 0.356);
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+
+    color: white;
+    border-radius: 7px;
+    border-color: rgba(251, 252, 251, 0.705);
+    font-family: 'Lobster', cursive;
+    height: 30%;
+    width: 25%;
+    text-shadow: 2px 2px 3px rgba(211, 247, 7, 0.932)
+
+}
+        
+           
+    button:hover {
+        cursor: pointer;
+        background-color: black;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sub {
+    margin-left: 37%;
+}
+
+
+#social {
+    margin-left: 42%;
+    height: 25px;
+    width: 25px;
+    font-size: 75px;
+}
+
+.container {
+    padding: 0;
+    
+}
+
+p {
+    font-family: 'Share Tech Mono', monospace;
+    margin-top: 3%;
+}
+
+#footer {
+    
+    background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
+    padding-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color:rgba(121, 118, 118, 0.507);
+    
+    
+}
+
+p {
+    margin-top: 0%;
+}
