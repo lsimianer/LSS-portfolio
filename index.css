@@ -3,13 +3,7 @@ body {
     color: white;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 
-    
-
 }
-
-
-  
-
 
 html, body. div{
     margin: 0 !important;
@@ -26,6 +20,7 @@ html, body. div{
     /* width: 60%;
     height: 60%; */
     margin-top: -5%;
+
 }
 
 #hound:hover {
@@ -81,6 +76,8 @@ h2 {
     color:white;
     text-shadow: 2px 2px 3px rgb(4, 138, 4);
     font-family: 'Lobster', cursive;
+    animation: shake 1.90s cubic-bezier(.36,.55,.0,.97) both;
+
 }
 
 h2:hover {
@@ -138,6 +135,7 @@ p {
     margin-bottom: 0;
     text-align: center;
     overflow: hidden;
+    border-radius: 7px;
    
 }
 
@@ -180,4 +178,4 @@ div{
             top: 100px;
         }
     
-    
+    }
