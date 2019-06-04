@@ -7,6 +7,12 @@ body {
 
 }
 
+html, body. div{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
 #logo {
     background-color:rgba(121, 118, 118, 0.507);
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");

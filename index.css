@@ -1,11 +1,20 @@
 body {
     background-color:black;
     color: white;
-    margin-right: -3%;
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 
     
 
+}
+
+
+  
+
+
+html, body. div{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
 }
 
 #logo {
@@ -17,6 +26,12 @@ body {
     /* width: 60%;
     height: 60%; */
     margin-top: -5%;
+}
+
+#hound:hover {
+    animation: shake 1.90s cubic-bezier(.36,.07,.19,.97) both;
+
+
 }
 
 .headBtn {
@@ -45,6 +60,8 @@ button {
     button:hover {
         cursor: pointer;
         background-color: black;
+        animation: shake 1.90s cubic-bezier(.36,.55,.0,.97) both;
+
     }
 
 .col-md {
@@ -55,6 +72,8 @@ button {
     max-width: 100%;
 
 }
+
+
 
 
 h2 {
@@ -85,8 +104,8 @@ svg {
     padding-left: 5%;
     padding-right: 5%;
     margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 7%;
+    margin-right: 0%;
     overflow: hidden;
 
 }
@@ -135,6 +154,30 @@ div{
     overflow: hidden;
 }
 
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+}
 
+    @keyframes bouncing {
+        0%, 50%, 100% { /* OR from, 50%, to */
+            top: 0;
+        }
+        25%, 75% {
+            top: 100px;
+        }
     
     
